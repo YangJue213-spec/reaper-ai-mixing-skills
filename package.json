@@ -1,0 +1,31 @@
+{
+  "name": "reaper-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for REAPER DAW - audio analysis, FX management, and parameter control",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "dev": "tsc --watch",
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "reaper",
+    "daw",
+    "audio",
+    "music-production"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "dotenv": "^17.3.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "openai": "^6.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
