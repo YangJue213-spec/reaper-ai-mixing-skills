@@ -1,4 +1,4 @@
-# reaper-mcp-server
+# reaper-ai-mixing-skills
 
 > MCP server for REAPER DAW - 通过 MCP（Model Context Protocol）协议让 AI 自动控制 REAPER 进行混音处理。
 
