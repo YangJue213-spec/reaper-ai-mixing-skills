@@ -26,8 +26,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yangjue213-spec/reaper-mcp-server.git
-cd reaper-mcp-server
+git clone https://github.com/yangjue213-spec/reaper-ai-mixing-skills.git
+cd reaper-ai-mixing-skills
 ```
 
 ### 2. 安装依赖
